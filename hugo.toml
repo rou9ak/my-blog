@@ -5,6 +5,63 @@ theme = 'Papermod'
 [params]
     description = 'A personal blog about technology, philosophy, and life.'
     author = 'Rounak Paul'
+    mainSections = ['posts']
+    [params.homeInfoParams]
+        Title = 'The Repository of an Open Mind'
+        Content = 'Writing and research across economics, mathematics, computation, culture, and problem solving.'
+    [params.label]
+        icon = '/MyLogos/01-grid-nine-light.svg'
+        iconHeight = 30
+
+[[menu.main]]
+    name = 'Problem Solving Series'
+    pageRef = '/problem-solving-series'
+    weight = 10
+
+[[menu.main]]
+    name = 'Articles'
+    pageRef = '/articles'
+    weight = 20
+
+[[menu.main]]
+    name = 'Blogs'
+    pageRef = '/blogs'
+    weight = 30
+
+[[menu.main]]
+    name = 'Developments'
+    pageRef = '/developments'
+    weight = 40
+
+[[menu.main]]
+    name = 'Economics'
+    pageRef = '/articles/economics'
+    parent = 'Articles'
+    weight = 10
+
+[[menu.main]]
+    name = 'Mathematics'
+    pageRef = '/articles/mathematics'
+    parent = 'Articles'
+    weight = 20
+
+[[menu.main]]
+    name = 'Computations'
+    pageRef = '/articles/computations'
+    parent = 'Articles'
+    weight = 30
+
+[[menu.main]]
+    name = 'Statistics'
+    pageRef = '/articles/statistics'
+    parent = 'Articles'
+    weight = 40
+
+[[menu.main]]
+    name = 'Arts & Culture'
+    pageRef = '/articles/arts-culture'
+    parent = 'Articles'
+    weight = 50
     
-    
-    
+
+
