@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+language = 'en-us'
 title = 'The Repository of an Open Mind'
-theme = 'PaperMod'
+theme = 'Papermod'
 [params]
     description = 'A personal blog about technology, philosophy, and life.'
     author = 'Rounak Paul'
