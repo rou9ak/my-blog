@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rou9ak-blog.netlify.app/'
 language = 'en-us'
 title = 'The Repository of an Open Mind'
 theme = 'Papermod'
